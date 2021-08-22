@@ -1,0 +1,17 @@
+﻿<Window x:Class="Browser.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Browser"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <WebBrowser Name="dipusbrowser" HorizontalAlignment="Left" Height="337" Margin="10,72,0,0" VerticalAlignment="Top" Width="772"/>
+        <Button Content="&lt;" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="32" FontFamily="Comic Sans MS" FontSize="20" Click="Button_Click"/>
+        <Button Content="&gt;" HorizontalAlignment="Left" Margin="47,10,0,0" VerticalAlignment="Top" Width="34" FontFamily="Comic Sans MS" FontSize="20" RenderTransformOrigin="-0.14,0.454" Click="Button_Click_1"/>
+        <TextBox Name="Search" HorizontalAlignment="Left" Height="32" Margin="86,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="605" FontFamily="Comic Sans MS" FontSize="20" TextChanged="TextBox_TextChanged"/>
+        <Button Content="GO" HorizontalAlignment="Left" Margin="696,10,0,0" VerticalAlignment="Top" Width="67" FontFamily="Comic Sans MS" FontSize="20" Click="Button_Click_2"/>
+
+    </Grid>
+</Window>
